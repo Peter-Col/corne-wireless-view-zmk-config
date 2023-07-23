@@ -48,7 +48,7 @@
 
             label = "Lower";
             bindings = <
-   &kp TAB        &kp N1  &bt BT_SEL 2  &bt BT_SEL 3          &kp N4        &kp N5    &kp ASTERISK        &kp N7        &kp N8        &kp N9  &kp LS(PLUS)  &kp BSPC
+   &kp TAB        &kp N1  &bt BT_SEL 2  &bt BT_SEL 3          &kp N4    &bt BT_CLR    &kp ASTERISK        &kp N7        &kp N8        &kp N9  &kp LS(PLUS)  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp LEFT_SHIFT  &bt BT_SEL 4       &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp MINUS    &trans
  &kp LSHFT        &trans        &trans        &trans          &trans        &trans       &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &trans
                                             &kp LGUI          &trans     &kp SPACE         &kp RET         &mo 3      &kp RALT
