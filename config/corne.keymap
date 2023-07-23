@@ -32,10 +32,10 @@
 
             label = "Base";
             bindings = <
-  &kp TAB  &kp Q  &kp W         &kp F  &kp P     &kp B        &kp J  &kp L      &kp U    &kp Y  &kp RS(SEMICOLON)  &kp BSPC
-&kp LCTRL  &kp A  &kp R         &kp S  &kp T     &kp G        &kp M  &kp N      &kp E    &kp I              &kp O   &kp SQT
-&kp LSHFT  &kp Z  &kp X         &kp C  &kp D     &kp V        &kp K  &kp H  &kp COMMA  &kp DOT           &kp FSLH   &kp ESC
-                         &kp LEFT_WIN  &mo 1  &kp BSPC    &kp SPACE  &mo 2   &kp RALT
+  &kp TAB  &kp Q  &kp W         &kp F  &kp P           &kp B        &kp J  &kp L      &kp U    &kp Y  &kp RS(SEMICOLON)  &kp BSPC
+&kp LCTRL  &kp A  &kp R         &kp S  &kp T           &kp G        &kp M  &kp N      &kp E    &kp I              &kp O   &kp SQT
+&kp LSHFT  &kp Z  &kp X         &kp C  &kp D           &kp V        &kp K  &kp H  &kp COMMA  &kp DOT           &kp FSLH   &kp ESC
+                         &kp LEFT_WIN  &mo 1  &kp LEFT_SHIFT    &kp SPACE  &mo 2   &kp RALT
             >;
         };
 
@@ -48,10 +48,10 @@
 
             label = "Lower";
             bindings = <
-          &kp TAB       &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &bt BT_CLR    &kp ASTERISK        &kp N7        &kp N8        &kp N9  &kp LS(PLUS)  &kp BSPC
-&kp RIGHT_CONTROL  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT      &trans       &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp MINUS    &trans
-        &kp LSHFT            &kp TAB         &trans        &trans          &trans      &trans       &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &trans
-                                                         &kp LGUI          &trans   &kp SPACE         &kp RET         &mo 3      &kp RALT
+          &kp TAB       &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4     &bt BT_CLR    &kp ASTERISK        &kp N7        &kp N8        &kp N9  &kp LS(PLUS)  &kp BSPC
+&kp RIGHT_CONTROL  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT         &trans       &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp MINUS    &trans
+        &kp LSHFT            &kp TAB         &trans        &trans          &trans         &trans       &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &trans
+                                                         &kp LGUI          &trans  &kp BACKSPACE         &kp RET         &mo 3      &kp RALT
             >;
         };
 
