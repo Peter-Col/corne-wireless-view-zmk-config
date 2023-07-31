@@ -32,10 +32,10 @@
 
             label = "Base";
             bindings = <
-&trans  &kp Q  &kp W         &kp F               &kp P            &kp B          &kp J                   &kp L      &kp U    &kp Y  &kp RS(SEMICOLON)  &trans
-&trans  &kp A  &kp R         &kp S               &kp T            &kp G          &kp M                   &kp N      &kp E    &kp I              &kp O  &trans
-&trans  &kp Z  &kp X         &kp C               &kp D            &kp V          &kp K                   &kp H  &kp COMMA  &kp DOT           &kp FSLH  &trans
-                      &kp LEFT_WIN  &mt LEFT_SHIFT TAB  &lt 1 BACKSPACE    &lt 2 SPACE  &mt RIGHT_SHIFT RETURN   &kp RALT
+&trans  &kp Q  &kp W         &kp F           &kp P            &kp B          &kp J                &kp L      &kp U    &kp Y  &kp RS(SEMICOLON)  &trans
+&trans  &kp A  &kp R         &kp S           &kp T            &kp G          &kp M                &kp N      &kp E    &kp I              &kp O  &trans
+&trans  &kp Z  &kp X         &kp C           &kp D            &kp V          &kp K                &kp H  &kp COMMA  &kp DOT           &kp FSLH  &trans
+                      &kp LEFT_WIN  &sk LEFT_SHIFT  &lt 1 BACKSPACE    &lt 2 SPACE  &mt RIGHT_SHIFT TAB   &kp RALT
             >;
         };
 
