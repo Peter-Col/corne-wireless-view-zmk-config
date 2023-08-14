@@ -13,10 +13,16 @@
         compatible = "zmk,combos";
 
         new_combo {
-            bindings = <&trans>;
-            key-positions = <13 14>;
-            timeout-ms = <0>;
+            bindings = <&kp TAB>;
+            key-positions = <13 12 13>;
+            timeout-ms = <180>;
             layers = <0>;
+            slow-release;
+        };
+
+        new_combo {
+            bindings = <&trans>;
+            key-positions = <>;
         };
     };
 
