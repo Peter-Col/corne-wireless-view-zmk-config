@@ -9,9 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -57,9 +55,9 @@
 
             label = "Raise";
             bindings = <
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &kp LS(ESCAPE)  &trans           &trans         &trans    &kp DOUBLE_QUOTES  &trans
-&trans  &kp EXCLAMATION   &kp AT             &kp HASH              &kp DOLLAR             &kp PERCENT      &trans          &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RBKT  &kp SQT            &trans
-&trans  &kp LS(EQUAL)     &kp MINUS          &kp ASTRK             &kp AMPERSAND          &kp CARET        &trans          &trans           &trans         &trans    &kp TILDE          &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &kp LS(ESCAPE)  &trans           &trans         &trans         &kp DOUBLE_QUOTES  &trans
+&trans  &kp EXCLAMATION   &kp AT             &kp HASH              &kp DOLLAR             &kp PERCENT      &trans          &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp SQT            &trans
+&trans  &kp LS(EQUAL)     &kp MINUS          &kp ASTRK             &kp AMPERSAND          &kp CARET        &trans          &trans           &trans         &trans         &kp TILDE          &trans
                                              &kp TAB               &trans                 &mo 4            &trans          &trans           &kp RALT
             >;
         };
