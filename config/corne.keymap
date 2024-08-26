@@ -55,18 +55,18 @@
 
             label = "Raise";
             bindings = <
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &kp LS(ESCAPE)  &trans           &trans         &trans         &kp DOUBLE_QUOTES  &trans
-&trans  &kp EXCLAMATION   &kp AT             &kp HASH              &kp DOLLAR             &kp PERCENT      &trans          &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp SQT            &trans
-&trans  &kp LS(EQUAL)     &kp MINUS          &kp ASTRK             &kp AMPERSAND          &kp CARET        &trans          &trans           &trans         &trans         &kp TILDE          &trans
-                                             &kp TAB               &trans                 &mo 4            &trans          &trans           &kp RALT
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &kp LS(ESCAPE)  &trans           &trans             &trans         &kp DOUBLE_QUOTES  &trans
+&trans  &kp EXCLAMATION   &kp AT             &kp HASH              &kp DOLLAR             &kp PERCENT      &trans          &kp RIGHT_SHIFT  &kp RIGHT_WIN      &kp RIGHT_ALT  &kp SQT            &trans
+&trans  &kp LS(EQUAL)     &kp MINUS          &kp ASTRK             &kp AMPERSAND          &kp CARET        &trans          &trans           &trans             &trans         &kp TILDE          &trans
+                                             &kp TAB               &trans                 &mo 4            &trans          &trans           &kp RIGHT_CONTROL
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans   &kp LG(TILDE2)  &kp UP_ARROW    &kp LS(LG(TILDE2))  &trans    &trans  &trans           &trans         &trans         &trans             &trans
-&trans  &kp TAB  &kp LEFT        &kp DOWN_ARROW  &kp RIGHT           &trans    &trans  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
-&trans  &trans   &trans          &trans          &trans              &trans    &trans  &trans           &trans         &trans         &trans             &trans
+&trans  &trans   &kp LG(TILDE2)  &kp UP_ARROW    &kp LS(LG(TILDE2))  &trans    &trans  &trans           &trans         &trans         &trans           &trans
+&trans  &kp TAB  &kp LEFT        &kp DOWN_ARROW  &kp RIGHT           &trans    &trans  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RG(RS(TAB))  &trans
+&trans  &trans   &trans          &trans          &trans              &trans    &trans  &trans           &trans         &trans         &trans           &trans
                                  &trans          &trans              &trans    &trans  &trans           &trans
             >;
         };
